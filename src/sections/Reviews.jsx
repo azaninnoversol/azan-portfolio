@@ -21,7 +21,7 @@ function Reviews() {
         </Typography>
       </div>
 
-      <div className="w-full relative">
+      <div className="w-full max-w-9xl! mx-auto relative">
         <Swiper
           loop={true}
           speed={10000}
@@ -35,13 +35,13 @@ function Reviews() {
           }}
           modules={[Autoplay, FreeMode]}
           breakpoints={{
-            640: { slidesPerView: 1.5, spaceBetween: 30 },
-            1024: { slidesPerView: 2.2, spaceBetween: 40 },
+            640: { slidesPerView: 1.5, spaceBetween: 20 },
+            1024: { slidesPerView: 2.2, spaceBetween: 20 },
           }}
           className="review-swiper linear-transition"
         >
           {[...reviews, ...reviews].map((review, index) => (
-            <SwiperSlide key={index} className="h-auto! flex items-center">
+            <SwiperSlide key={index} className="h-auto! flex items-center ">
               <ReviewCard {...review} />
             </SwiperSlide>
           ))}

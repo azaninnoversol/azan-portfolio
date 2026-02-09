@@ -5,9 +5,10 @@ import BentoBox from "@/sections/BentoBox";
 import Projects from "@/sections/Projects";
 import Reviews from "@/sections/Reviews";
 import WorkExperience from "@/sections/WorkExperience";
+import Approach from "@/sections/Approach";
+import Footer from "@/components/common/Footer/Footer";
 import BackgroundImgStyle from "@/components/common/BackgroundImgStyle/BackgroundImgStyle";
 import { GridPattern, SpotlightLeft, SpotlightRight } from "@/lib/resources";
-import Approach from "@/sections/Approach";
 
 function Page() {
   return (
@@ -27,6 +28,7 @@ function Page() {
       <Reviews />
       <WorkExperience />
       <Approach />
+      <Footer />
     </main>
   );
 }

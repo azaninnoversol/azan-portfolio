@@ -11,6 +11,7 @@ import DeveloperImg from "../../public/images/developer.png";
 import DeveImg from "../../public/images/dev.png";
 import BulbImg from "../../public/images/bulb.png";
 import ProgrammerImg from "../../public/images/programmer.png";
+import FooterGridImg from "../../public/images/footer-grid.png";
 import YellowSvg from "../../public/images/yellow-arrow.svg";
 import PinkSvg from "../../public/images/pink-arrow.svg";
 
@@ -28,6 +29,7 @@ export {
   DeveImg,
   BulbImg,
   ProgrammerImg,
+  FooterGridImg,
   YellowSvg,
   PinkSvg,
 };
