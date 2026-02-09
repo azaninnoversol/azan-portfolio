@@ -1,9 +1,13 @@
 import React from "react";
-import Hero from "@/sections/Hero";
 import Header from "@/components/common/Header/Header";
+import Hero from "@/sections/Hero";
+import BentoBox from "@/sections/BentoBox";
+import Projects from "@/sections/Projects";
+import Reviews from "@/sections/Reviews";
+import WorkExperience from "@/sections/WorkExperience";
 import BackgroundImgStyle from "@/components/common/BackgroundImgStyle/BackgroundImgStyle";
 import { GridPattern, SpotlightLeft, SpotlightRight } from "@/lib/resources";
-import BentoBox from "@/sections/BentoBox";
+import Approach from "@/sections/Approach";
 
 function Page() {
   return (
@@ -19,6 +23,10 @@ function Page() {
       <Header />
       <Hero />
       <BentoBox />
+      <Projects />
+      <Reviews />
+      <WorkExperience />
+      <Approach />
     </main>
   );
 }

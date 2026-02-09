@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "file",
-  // title: "Hafiz Azan | Portfolio",
+  // title: "file",
+  title: "Hafiz Azan | Portfolio",
   description: "Passionate Frontend Developer specializing in React.js, Next.js, Vue.js and React Native",
 };
 

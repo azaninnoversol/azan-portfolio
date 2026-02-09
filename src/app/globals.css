@@ -10,6 +10,7 @@
   --color-foreground: var(--foreground);
   --color-light-blue: #e4ecff;
   --color-light-pink: #cbacf9;
+  --color-light-gray: #c1c2d3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -56,6 +57,11 @@
   overflow: hidden;
   border-right: 2px solid white;
   animation: cursor 0.4s step-end infinite alternate;
+}
+
+.linear-transition .swiper-wrapper {
+  transition-timing-function: linear !important;
+  -webkit-transition-timing-function: linear !important;
 }
 
 @keyframes cursor {

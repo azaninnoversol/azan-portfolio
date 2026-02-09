@@ -17,7 +17,7 @@ function Prioritize() {
           src={LaptopImg.src}
           alt="laptop"
           fill
-          className="object-cover md:object-contain object-top-right transition-transform duration-500 group-hover:scale-105 opacity-50 md:opacity-100"
+          className="object-cover object-top-right transition-transform duration-500 group-hover:scale-105 opacity-50 md:opacity-100"
         />
       </div>
 
