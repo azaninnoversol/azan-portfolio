@@ -22,7 +22,7 @@ const ApproachCard = ({ phase, title, desc, className }) => {
       </div>
 
       <div className="absolute inset-0 p-8 flex flex-col items-center justify-center text-center opacity-0 translate-y-10 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-700 ease-out">
-        <div className="mb-6 px-4 py-1 border border-purple-500/30 bg-purple-500/10 rounded-full">
+        <div className="mb-6 px-4 py-1 border border-purple-500/30 bg-purple-900/10 rounded-full">
           <Typography variant="small" className="text-purple-400 text-xs font-bold uppercase tracking-widest">
             {phase}
           </Typography>
@@ -39,7 +39,7 @@ const ApproachCard = ({ phase, title, desc, className }) => {
         <div className="absolute bottom-0 left-0 w-full h-1/3 bg-linear-to-t from-purple-500/10 to-transparent pointer-events-none" />
       </div>
 
-      <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
+      <div className="absolute inset-0 bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
     </div>
   );
 };
